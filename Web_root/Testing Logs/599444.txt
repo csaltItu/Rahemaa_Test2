@@ -1,0 +1,108 @@
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-31~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getCallTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-31~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/getReqTableCutoff.php?days=5, is returning: 0
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-31~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=3566, is returning: 03239754007
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-31~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/CountryCode.php?ph=03239754007, is returning: 32 - Belgium
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-35~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/search_phno.php?ph=3566&app=PollyGame&cutoff=0, is returning: 114
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-35~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/GetPreferredLangs.php?id=220462, is returning: Urdu,Urdu
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-35~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/keyToPh.php?key=3566, is returning: 03239754007
+%%$$~UnAssigned~0~Tue_2017-03-07_14-30-35~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/New_Call.php?reqid=220462&phno=3566&calltype=Call-me-back&status=InProgress&ch=WateenE1, is returning: 599444
+%%$$~599444~0~Tue_2017-03-07_14-30-35~L1:::~App: PollyGame, Call Type: Call-me-back, Phone Number: 3566, Originating Request ID: 220462, Call ID: 599444, Country: PK, ouserid: 03239754007, Age: 114, EHLAge: 0, Country Code: 32
+%%$$~599444~0~Tue_2017-03-07_14-30-35~L0:::~Call Table cutoff found at:0
+%%$$~599444~0~Tue_2017-03-07_14-30-35~L0:::~Req Table cutoff found at:0
+%%$$~599444~0~Tue_2017-03-07_14-30-35~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1500.wav
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L0:::~PGame prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/Polly/
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L0:::~PHealth prompts directory set to: D:/xampp/htdocs/wa/prompts/Urdu/EHL/
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L1:::~Now attempting to call:
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L1:::~Calling via WateenE1.
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L1:::~Dialling .
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L0:::~Starting Call Recording
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=599444&status=InProgress, is returning: Early Return.
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=220462&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L2:::~Call Answered.
+%%$$~599444~0~Tue_2017-03-07_14-30-38~L0:::~pauseHere is called with param: TRUE
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L2:::~Inside PollyGameAnswerCall(). Calltype: Call-me-back
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L0:::~Starting Call Recording
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=599444&status=InProgress, is returning: Early Return.
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Request_Status.php?reqid=220462&status=fulfilled&ch=WateenE1, is returning: Early Return.
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L2:::~Call Answered.
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L2:::~Playing Greetings
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L2:::~About to listen to PGame Greetings.
+%%$$~599444~0~Tue_2017-03-07_14-30-39~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/Salaam.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil1000.wav D:/xampp/htdocs/wa/prompts/Urdu/Polly/Greetings.wav
+%%$$~599444~0~Tue_2017-03-07_14-30-46~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-30-46~L0:::~bargeInToChangeLang called with params: TRUE
+%%$$~599444~0~Tue_2017-03-07_14-30-46~L2:::~Finished listening to PGame Greetings.
+%%$$~599444~0~Tue_2017-03-07_14-30-46~L2:::~Now playing Informed consent.
+%%$$~599444~0~Tue_2017-03-07_14-30-46~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/InformedConsent.wav
+%%$$~599444~0~Tue_2017-03-07_14-30-52~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-30-52~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/New_Rec.php?callid=599444, is returning: 66933
+%%$$~599444~0~Tue_2017-03-07_14-30-52~L2:::~Assigned Recording ID 66933
+%%$$~599444~0~Tue_2017-03-07_14-30-52~L2:::~Prompting the user to speak
+%%$$~599444~0~Tue_2017-03-07_14-30-52~L2:::~recordAudio was called with prompt: D:/xampp/htdocs/wa/prompts/Urdu/Polly/Promptforspeaking.wav and parameters: 1, 600, 3, 30, , #, http://127.0.0.1/wa/Scripts/process_recording.php?recid=66933, audio/wav,
+%%$$~599444~0~Tue_2017-03-07_14-31-00~L0:::~doCurl called with url: http://127.0.0.1/wa/Scripts/processAudFile.php?path=s-66933.wav, is returning:
+%%$$~599444~0~Tue_2017-03-07_14-31-00~L2:::~recordAudio complete. Now returning.
+%%$$~599444~0~Tue_2017-03-07_14-31-00~L2:::~Recording Complete. Result:
+D:/xampp/htdocs/wa/Praat/Recordings/66000/s-66933.wav
+%%$$~599444~0~Tue_2017-03-07_14-31-00~L1:::~firstCall entered.
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/first_call.php?uid=3566&calltype=Call-me-back, is returning: {\"result\":{\"error\":false,\"first_call\":false,\"count\":114}}
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~firstCall JSON received: {\"result\":{\"error\":false,\"first_call\":false,\"count\":114}}
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~firstCall returning.
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~firstCall returning, error=false.
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~firstCall first_call:
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~getMsgSurveyFlag entered.
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/check_ms_flag.php?uid=3566, is returning: {\"result\":{\"error\":false,\"flag\":\"1\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~getMsgSurveyFlag JSON received: {\"result\":{\"error\":false,\"flag\":\"1\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~getMsgSurveyFlag returning.
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~getMsgSurveyFlag returning, error=false.
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~getMsgSurveyFlag flag: 1
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L1:::~playInfoMessage entered.
+%%$$~599444~0~Tue_2017-03-07_14-31-03~L2:::~sayInt about to play: D:/xampp/htdocs/wa/InfoMessages/infomsg-intro.wav
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L1:::~getInfoMessageToPlay entered.
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/get_info_message.php?callid=599444&uid=3566, is returning: {\"result\":{\"error\":false,\"msg_id\":\"7\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L1:::~getInfoMessageToPlay JSON received: {\"result\":{\"error\":false,\"msg_id\":\"7\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L1:::~getInfoMessageToPlay returning.
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L1:::~getInfoMessageToPlay returning, error=false.
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L1:::~getInfoMessageToPlay MSG ID: 7
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L1:::~playInfoMessage Info message returned: 7
+%%$$~599444~0~Tue_2017-03-07_14-31-07~L2:::~sayInt about to play: D:/xampp/htdocs/wa/InfoMessages/7.wav
+%%$$~599444~0~Tue_2017-03-07_14-31-18~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-31-18~L1:::~updateInfoMessageCount entered.
+%%$$~599444~0~Tue_2017-03-07_14-31-18~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/update_info_message.php?callid=599444&uid=3566&id=7, is returning: {\"result\":{\"error\":false,\"string\":\"4-3-5-1-8-9-10-6-2-7\",\"message\":\"String Updated\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-18~L1:::~updateInfoMessageCount JSON received: {\"result\":{\"error\":false,\"string\":\"4-3-5-1-8-9-10-6-2-7\",\"message\":\"String Updated\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-18~L1:::~updateInfoMessageCount returning, error=false.
+%%$$~599444~0~Tue_2017-03-07_14-31-18~L2:::~sayInt about to play: D:/xampp/htdocs/wa/InfoMessages/infomsg-end.wav
+%%$$~599444~0~Tue_2017-03-07_14-31-23~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-31-23~L1:::~playInfoMessage returning.
+%%$$~599444~0~Tue_2017-03-07_14-31-23~L2:::~Prompting the user to get ready for effects.
+%%$$~599444~0~Tue_2017-03-07_14-31-23~L2:::~sayInt about to play: D:/xampp/htdocs/wa/prompts/Urdu/Polly/Readyforeffects.wav
+%%$$~599444~0~Tue_2017-03-07_14-31-29~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-31-29~L0:::~getFilePath is called.
+%%$$~599444~0~Tue_2017-03-07_14-31-29~L0:::~getFilePath called with params: 66933.wav, TRUE, is returning: 66000/
+%%$$~599444~0~Tue_2017-03-07_14-31-29~L0:::~doCurl called with url: http://127.0.0.1/wa/Scripts/doesFileExist.php?fname=99-s-66933.wav, is returning: <br>path:D:\\xampp\\htdocs\\wa\\Praat\\ModifiedRecordings\\0\\<br>1
+%%$$~599444~0~Tue_2017-03-07_14-31-29~L2:::~sayInt about to play: D:/xampp/htdocs/wa/Praat/clock_fast.wav
+%%$$~599444~0~Tue_2017-03-07_14-31-30~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-31-30~L2:::~sayInt about to play: D:/xampp/htdocs/wa/Praat/ModifiedRecordings/66000/99-s-66933.wav
+D:/xampp/htdocs/wa/prompts/Urdu/Polly/sil500.wav
+%%$$~599444~0~Tue_2017-03-07_14-31-31~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-31-31~L2:::~Played effect number: 0
+%%$$~599444~0~Tue_2017-03-07_14-31-31~L2:::~Now playing effect related options.
+%%$$~599444~0~Tue_2017-03-07_14-31-56~L1:::~ReMDBLog entered.
+%%$$~599444~0~Tue_2017-03-07_14-31-56~L0:::~doCurl called with url: http://127.0.0.1/wa/RaahEMaa/Scripts/update_log.php?uid=3566&action=ReMT2-Entered-Via-Hook&callid=599444&fileid=0, is returning: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-56~L1:::~ReMDBLog JSON received: {\"result\":{\"error\":false,\"message\":\"inserted\"}}
+%%$$~599444~0~Tue_2017-03-07_14-31-56~L1:::~ReMDBLog returning.
+%%$$~599444~0~Tue_2017-03-07_14-31-56~L1:::~ReMMenuT2 entered.
+%%$$~599444~0~Tue_2017-03-07_14-31-56~L2:::~sayInt about to play: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Salam.wav
+%%$$~599444~0~Tue_2017-03-07_14-32-02~L2:::~sayInt complete. Now returning: value: -, name: not_Good_timeout_or_invalid, attempt: , choice:
+%%$$~599444~0~Tue_2017-03-07_14-32-02~L1:::~ReMMenuT2 prompt: D:/xampp/htdocs/wa/RaahEMaa/Prompts/Test2mainprompt.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/raaye.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/press3.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/wapis.wav D:/xampp/htdocs/wa/RaahEMaa/Prompts/press4.wav
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L1:::~Is the current call active? false. Hanging up if the call is not active.
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L2:::~Prehangup was called.
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Waiting_DLV_Reqs.php?rcallid=599444, is returning: Early Return.
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Status.php?callid=599444&status=Answered, is returning: Early Return.
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L0:::~calledID:
+-ERR no reply
+, SessionID: e0786e33-3d5b-4d09-99ce-431449be7885
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L2:::~Hanging Up. Call ended for callid: 599444
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L0:::~doCurl called with url: http://127.0.0.1/wa/DBScripts/Update_Call_Endtime.php?callid=599444, is returning: 0
+%%$$~599444~0~Tue_2017-03-07_14-32-06~L0:::~sendLogs called.
+%%$$
